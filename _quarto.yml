@@ -6,17 +6,25 @@ website:
   title: "Portfolio"
   site-url: "https://mirramockakid.github.io/Portfolio/"
   navbar:
+    background: light
     left:
       - href: index.qmd
         text: Home
       - href: projects.qmd
         text: Projects
+    right:
+      - icon: github
+        href: https://github.com/mirramockakid
+  page-footer:
+    left: "Built with Quarto"
+    right: "[GitHub](https://github.com/mirramockakid)"
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: false
+    link-external-newwindow: true
 
 execute:
   freeze: auto

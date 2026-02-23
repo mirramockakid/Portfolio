@@ -1,14 +1,35 @@
 ---
 title: "Projects"
+page-layout: full
 ---
 
-## Repositories
+## Repository Directory
 
-Add short descriptions and links for each project here.
+Use this page as the main index of your projects and published outputs.
 
-### Example Project
+::: {.project-grid}
+::: {.project-card}
+### GSEA Permutation vs. Rotation
 
-- Repository: [GSEA Permutation vs. Rotation](https://github.com/mirramockakid/GSEA-Permutation-vs.-Rotation)
-- Summary: One or two lines describing the project.
-- Outputs:
-  - [Analysis HTML](https://mirramockakid.github.io/GSEA-Permutation-vs.-Rotation/rotations_walkthrough.html)
+Simulation comparing permutation and rotation methods for GSEA under a null association setting.
+
+::: {.meta-line}
+`R` `Quarto` `Simulation`
+:::
+
+::: {.link-row}
+[Repository](https://github.com/mirramockakid/GSEA-Permutation-vs.-Rotation){.chip-link}
+[Analysis HTML](https://mirramockakid.github.io/GSEA-Permutation-vs.-Rotation/rotations_walkthrough.html){.chip-link}
+:::
+:::
+
+::: {.project-card .project-card-muted}
+### Next Project
+
+Add another repository summary here with one sentence describing the goal and key output.
+
+::: {.link-row}
+[Repository](https://github.com/mirramockakid){.chip-link}
+:::
+:::
+:::

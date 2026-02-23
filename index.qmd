@@ -1,25 +1,48 @@
 ---
 title: "Portfolio"
+page-layout: full
 ---
 
-## Welcome
+::: {.hero}
+::: {.hero-text}
+# Computational Biology Portfolio
 
-This site is a landing page for my work and related repositories.
+Quarto-powered landing page for projects, reports, and reproducible analyses.
 
-Use it to:
+This site links out to source repositories and published HTML outputs.
 
-- Link to other GitHub repositories
-- Share rendered analyses from `.qmd` and `.Rmd` files
-- Publish project notes and reports as HTML
+::: {.hero-actions}
+[Browse Projects](projects.qmd){.cta-btn .cta-primary}
+[GitHub Profile](https://github.com/mirramockakid){.cta-btn .cta-secondary}
+:::
+:::
 
-## Featured Links
+::: {.hero-panel}
+## Focus
 
-- [Project Repo 1](https://github.com/your-username/your-repo-1)
-- [Project Repo 2](https://github.com/your-username/your-repo-2)
-- [Project Repo 3](https://github.com/your-username/your-repo-3)
+- Statistical genomics
+- Reproducible analysis workflows
+- Simulation studies and reporting
 
-## Rendered Pages
+## Stack
 
-- [Example report](reports/example-report.html)
+R, Quarto, R Markdown, GitHub Pages
+:::
+:::
 
-Replace the placeholders above with your real projects and generated pages.
+## Featured Project
+
+::: {.project-card}
+### GSEA Permutation vs. Rotation
+
+Simulation of GSEA results under the null hypothesis of no association between gene sets and phenotypes, comparing permutation and rotation methods.
+
+::: {.link-row}
+[Source code](https://github.com/mirramockakid/GSEA-Permutation-vs.-Rotation){.chip-link}
+[Analysis report](https://mirramockakid.github.io/GSEA-Permutation-vs.-Rotation/rotations_walkthrough.html){.chip-link}
+:::
+:::
+
+## Add More Projects
+
+Use `projects.qmd` as the directory page for all repositories and rendered outputs.
