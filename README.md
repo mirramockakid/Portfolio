@@ -1,6 +1,6 @@
 # Portfolio
 
-Quarto-based landing page for GitLab Pages.
+Quarto-based landing page for GitHub Pages.
 
 ## Local preview
 
@@ -10,6 +10,6 @@ Requires [Quarto](https://quarto.org/).
 quarto preview
 ```
 
-## Publish on GitLab Pages
+## Publish on GitHub Pages
 
-The included `.gitlab-ci.yml` renders the site and publishes the `public/` directory.
+The included GitHub Actions workflow renders the Quarto site and deploys it to GitHub Pages.

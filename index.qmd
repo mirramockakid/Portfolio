@@ -8,14 +8,14 @@ This site is a landing page for my work and related repositories.
 
 Use it to:
 
-- Link to other GitLab/GitHub repositories
+- Link to other GitHub repositories
 - Share rendered analyses from `.qmd` and `.Rmd` files
 - Publish project notes and reports as HTML
 
 ## Featured Links
 
-- [Project Repo 1](https://gitlab.com/your-username/your-repo-1)
-- [Project Repo 2](https://gitlab.com/your-username/your-repo-2)
+- [Project Repo 1](https://github.com/your-username/your-repo-1)
+- [Project Repo 2](https://github.com/your-username/your-repo-2)
 - [Project Repo 3](https://github.com/your-username/your-repo-3)
 
 ## Rendered Pages
