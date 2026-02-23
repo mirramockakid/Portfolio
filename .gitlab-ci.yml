@@ -1,0 +1,19 @@
+image: rocker/verse:4.3.3
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  before_script:
+    - apt-get update && apt-get install -y wget
+    - wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.32/quarto-1.7.32-linux-amd64.deb
+    - dpkg -i quarto-1.7.32-linux-amd64.deb || apt-get install -f -y
+    - quarto --version
+  script:
+    - quarto render
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

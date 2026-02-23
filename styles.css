@@ -1,0 +1,25 @@
+:root {
+  --brand: #0b5fff;
+  --ink: #1f2937;
+  --muted: #6b7280;
+}
+
+h1, h2, h3 {
+  color: var(--ink);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+a {
+  text-decoration-thickness: 0.08em;
+}
+
+p, li {
+  color: var(--ink);
+}
+
+body {
+  line-height: 1.6;
+}

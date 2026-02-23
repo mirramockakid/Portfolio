@@ -1,0 +1,14 @@
+---
+title: "Projects"
+---
+
+## Repositories
+
+Add short descriptions and links for each project here.
+
+### Example Project
+
+- Repository: [your-repo](https://gitlab.com/your-username/your-repo)
+- Summary: One or two lines describing the project.
+- Outputs:
+  - [Analysis HTML](reports/example-report.html)
