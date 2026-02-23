@@ -8,7 +8,7 @@ Add short descriptions and links for each project here.
 
 ### Example Project
 
-- Repository: [your-repo](https://github.com/your-username/your-repo)
+- Repository: [GSEA Permutation vs. Rotation](https://github.com/mirramockakid/GSEA-Permutation-vs.-Rotation)
 - Summary: One or two lines describing the project.
 - Outputs:
-  - [Analysis HTML](reports/example-report.html)
+  - [Analysis HTML](https://mirramockakid.github.io/GSEA-Permutation-vs.-Rotation/rotations_walkthrough.html)
