@@ -39,7 +39,7 @@ Simulation of GSEA results under the null hypothesis of no association between g
 
 ::: {.link-row}
 [Source code](https://github.com/mirramockakid/GSEA-Permutation-vs.-Rotation){.chip-link}
-[Analysis report](https://mirramockakid.github.io/GSEA-Permutation-vs.-Rotation/rotations_walkthrough.html){.chip-link}
+[Analysis report](https://mirramockakid.github.io/GSEA-Permutation-vs.-Rotation/gsea_rotation_vs_permutation.html){.chip-link}
 :::
 :::
 
